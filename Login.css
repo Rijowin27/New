@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    background-image: url(https://t3.ftcdn.net/jpg/07/30/98/58/360_F_730985885_qsS8suN4Tp9sgJ5UqqRuPlm6UkqUcYU5.jpg);
+    color: white;
+    padding-top: 10%;
+}
+.sbt:hover{
+    background-color: cornsilk;
+}
+input{
+    border-radius: 2cm;
+}
+.sbt{
+    border-radius: 2cm;
+}

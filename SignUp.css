@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    background-image: url(https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg);
+    color: white;
+    padding-top:10%;
+}
+input{
+    border-radius: 2cm;
+}
+#sbt:hover{
+    background-color: cornsilk;
+}
+#sbt{
+    border-radius: 2cm;
+}
