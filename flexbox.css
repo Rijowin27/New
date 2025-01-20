@@ -2,6 +2,7 @@
 }
 .container div{
     height: 210px;
+    display: flexx;
 }
 .one{
     background-color: orange;
