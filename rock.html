@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="rock.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>ROCK   PAPER   SCISSOR</h1>
+            <p>Choose Your Choice</p>
+            <button class="b" onclick="play('Rock')">🪨🪨Rock</button>
+            <button class="bt" onclick="play('Paper')">🧻🧻Paper</button>
+            <button class="btn" onclick="play('Scissor')">✂️✂️Scissor</button>
+            <h3 id="result"></h3>
+        </div>
+        <script>
+            let arr=["Rock","Paper","Scissor"]
+            let Computer=arr[Math.floor(Math.random()*arr.length)]
+            function play(userChoice){
+                let result=(Computer===userChoice)?"Draw":
+                ((Computer==="Rock" && userChoice==="Paper")||(Computer==="Paper" && userChoice==="Scissor")||(Computer==="Scissor" && userChoice==="Rock"))?"You Won":"Better Luck Next Time"
+                document.getElementById("result").innerText=result
+                console.log(Computer)
+            }
+        </script>
+    </body>
+</html>
